@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2022-07-27T07:10:13.402Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.0.1" etag="3TEJuRJQBV_o1KxfVxYY" type="github"><diagram id="Kk_8_OFX353wnCiyBugl">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-27T07:10:49.325Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="owdIKllSVzdGfdEsGlTs" version="20.0.1" type="github">
+  <diagram id="Kk_8_OFX353wnCiyBugl" name="Page-1">
+    <mxGraphModel dx="1298" dy="-10856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LsQOOPx3qwBq_5h83j59-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="11790" width="945" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="LsQOOPx3qwBq_5h83j59-2" value="网络接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="12160" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LsQOOPx3qwBq_5h83j59-3" value="缓存机制" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="12160" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LsQOOPx3qwBq_5h83j59-4" value="日志缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="12160" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LsQOOPx3qwBq_5h83j59-5" value="IABModel 抽象层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="12100" width="365" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LsQOOPx3qwBq_5h83j59-6" value="旧AB model 策略层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="12040" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LsQOOPx3qwBq_5h83j59-7" value="天秤AB model 策略层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="12040" width="175" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LsQOOPx3qwBq_5h83j59-8" value="processor&lt;br&gt;注册机制" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="870" y="12040" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LsQOOPx3qwBq_5h83j59-9" value="对外接口层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="11980" width="490" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LsQOOPx3qwBq_5h83j59-10" value="&amp;nbsp; 业务策略" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="490" y="11890" width="490" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LsQOOPx3qwBq_5h83j59-11" value="轮询机制" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="556.25" y="11920" width="112.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LsQOOPx3qwBq_5h83j59-12" value="用户改变" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="678.75" y="11920" width="112.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LsQOOPx3qwBq_5h83j59-13" value="冷启动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="801.25" y="11920" width="112.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LsQOOPx3qwBq_5h83j59-14" value="多进程同步策略" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="12160" width="115" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
